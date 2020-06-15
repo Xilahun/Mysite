@@ -1,0 +1,138 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #1b6ca8;
+  font-size:50px;
+  line-height:2;
+  margin-top:0;
+  font-family:'Sacramento',cursive;
+}
+
+h2 {
+  color: #1b6ca8;
+  font-family:'Montserrat',sans-serif;
+  padding-bottom:10px;
+}
+
+h3 {
+  color:#1b6ca8;
+  font-family:'Montserrat',sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border:dotted #43d8c9 6px;
+  border-bottom: none;
+  width:4%;
+  margin:100px auto;
+}
+
+a {
+  color:#151965;
+  font-family:'Montserrat', sans-serif;
+  margin:5px 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#EAF6F6;
+}
+
+.top-container {
+  background-color: #abf0e9;
+  position:relative;
+  padding-top:100px
+}
+
+.middle-container {
+  margin:100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width:35%;
+  margin:90px auto 90px auto;
+  text-align:left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin:40% auto 60px;
+}
+
+.bottom-container {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding:20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right:250px;
+  top:250px;
+}
+
+.bottom-cloud {
+  position:absolute;
+  left: 250px;
+  bottom:300px;
+}
+
+.code-img {
+  width:25%;
+  float:left;
+  margin-right:30px
+}
+
+.chilli-img {
+  width:20%;
+  float:right;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.my-profile {
+  width:25%;
+  text-align:center;
+}
+.code-ethiopia {
+  clear: left;
+}
+<a href="#"class="myButton">CONTACT ME</a>.myButton {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 22px;
+  border: 2px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+  font-size: 11px;
+  padding: 9px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
